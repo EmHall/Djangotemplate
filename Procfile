@@ -1,0 +1,1 @@
+web_gunicorn django_todo.whiskey:application

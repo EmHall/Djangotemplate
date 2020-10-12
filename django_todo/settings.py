@@ -85,7 +85,7 @@ WSGI_APPLICATION = 'django_todo.wsgi.application'
 
 
 DATABASES = {
-    'default': dj_database_url.parse(postgres://miwzyycyfmkqyw:efcb25e4e5c705dc5e1600d2661901dae1740a5b47685bc46b395673482acc24@ec2-54-157-4-216.compute-1.amazonaws.com:5432/d708q9c9jkqrig)
+    'default': dj_database_url.parse("postgres://miwzyycyfmkqyw:efcb25e4e5c705dc5e1600d2661901dae1740a5b47685bc46b395673482acc24@ec2-54-157-4-216.compute-1.amazonaws.com:5432/d708q9c9jkqrig")
     {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
