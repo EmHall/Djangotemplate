@@ -28,8 +28,7 @@ DEBUG = development
 if development:
     ALLOWED_HOSTS = ['localhost']
 else:
-    ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME', 'todo-django-todo-app.herokuapp.com')]
-
+    ALLOWED_HOSTS = ['todo-django-todo-app.herokuapp.com', 'localhost']
 
 # Application definition
 
@@ -70,6 +69,7 @@ TEMPLATES = [
         },
     },
 ]
+
 
 WSGI_APPLICATION = 'django_todo.wsgi.application'
 
